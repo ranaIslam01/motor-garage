@@ -1,16 +1,118 @@
-# React + Vite
+# 🚗 Motor Garage — React Auto Service Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive auto-repair service website built with **React + Vite**, featuring dynamic pages, a booking modal, service details, blogs, contact form, and Google Maps integration.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- ⚡ Built with **React + Vite**
+- 🎨 Fully responsive **Tailwind CSS UI**
+- 🧭 **React Router** for navigation
+- 🧩 Reusable components (Hero, Title, Modal, etc.)
+- 🧠 **Context API Modal System** for booking appointments
+- 📝 Blog system with sidebar
+- 🛠 Service and Shop repair pages
+- 📍 Google Maps embedded directions page
+- ⭐ Clean, scalable, and production-ready codebase
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 Folder Structure
 
-## Expanding the ESLint configuration
+```
+src/
+│── assets/
+│── components/
+│   ├── Home/
+│   ├── Blog/
+│   ├── Service/
+│   ├── Contact/
+│── Shared/
+│   ├── Hero.jsx
+│   ├── NavBar.jsx
+│   ├── Title.jsx
+│── ModalContext/
+│   ├── ModalContext.jsx
+│── Router/
+│   ├── Router.jsx
+│── pages/
+│   ├── HomePage.jsx
+│   ├── BlogPage.jsx
+│   ├── ContactPage.jsx
+│   ├── DirectionsPage.jsx
+│   ├── MobileMechanicPage.jsx
+│   ├── SpecialPage.jsx
+│   ├── ShopRe.jsx
+│── main.jsx
+│── index.css
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Tech Stack
+
+| Category | Tools |
+|---------|--------|
+| Framework | React + Vite |
+| Styling | Tailwind CSS |
+| Routing | React Router |
+| Icons | React Icons |
+| State Management | Context API |
+| Map | Google Maps Embed |
+
+---
+
+## 🏁 Installation
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 🧩 Core Components
+
+### 🔹 Hero Component  
+Dynamic banner for all pages with title, description, and image.
+
+### 🔹 Modal Provider  
+Global appointment modal using Context API.
+
+### 🔹 Service, Blog, Shop & Contact Components  
+Reusable, optimized component architecture.
+
+---
+
+## 🌐 Pages Overview
+
+- **Home Page** — Facilities, Choice, Services, Offers, Testimonials  
+- **Blog Page** — Expert articles + Popular blog section  
+- **Contact Page** — Dynamic contact form  
+- **Directions Page** — Google Maps embed  
+- **Mobile Mechanic Page** — On-site service details  
+- **Special Offers Page** — Discounts & coupons  
+- **Shop Repair Page** — In-shop repair services  
+
+---
+
+## 🎯 Highlights
+
+- Smooth modal animations  
+- Clean code architecture  
+- SEO-friendly structure  
+- Easy to extend for future features  
+- Professional, modern UI  
+
+---
+
+## 📜 License  
+This project is free for personal and portfolio use.
+
+---
+
+If you want, I can also create:
+✔ GitHub badges  
+✔ Preview screenshots  
+✔ Project demo GIF  
+✔ More advanced README formatting  
