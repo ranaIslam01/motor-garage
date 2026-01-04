@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="text-black-base font-bold relative">
+      <nav className="text-amber-50 font-bold relative">
         <div className="">
           <div className="flex mr-[7%] md:mr-0 items-center justify-between">
             <Link to='/' className="flex items-center">
