@@ -5,7 +5,7 @@ import { useModal } from '../ModalContext/ModalContext';
 const Hero = ({title, description, image, home}) => {
     const {openModal} = useModal();
     return (
-        <div className='h-screen m-5 rounded-3xl' style={{background: `linear-gradient(192.93deg, rgba(0, 0, 0, 0) 52.14%, #090909 97.57%), url(${image})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
+        <div className='h-[95vh] md:m-5 mt-4 mx-4  rounded-3xl' style={{background: `linear-gradient(192.93deg, rgba(0, 0, 0, 0) 52.14%, #090909 97.57%), url(${image})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
 
             {
                 home ? <div className=' p-8  max-w-5xl absolute bottom-0'>
