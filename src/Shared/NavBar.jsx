@@ -16,11 +16,11 @@ export default function Navbar() {
         <div className="">
           <div className="flex mr-[7%] md:mr-0 items-center justify-between">
             <Link to='/' className="flex items-center">
-              <img className='h-15 object-cover' src={logo} alt="" />
+              <img className='h-15 object-cover' src={logo} alt="#" />
             </Link>
 
             {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center space-x-8">
+            <div className="hidden md:flex items-center space-x-8 backdrop-blur-2xl px-8 py-4 rounded-lg">
               <NavLink to="/" className="hover:text-red-400 transition-colors">Home</NavLink>
 
               <div className="relative group">
