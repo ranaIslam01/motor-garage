@@ -5,12 +5,12 @@ import Services from "../components/Home/Services";
 import Choice from "../components/Home/Choice";
 import Facilities from "../components/Home/Facilities";
 import Hero from "../Shared/Hero";
-import home from '../assets/images/home.png';
+import homeimage from '../assets/images/home.png';
 
 const HomePage = () => {
   return (
     <div>
-        <Hero title={"Honesty. Quality. Care. That's What Drives Us."} description={"At our shop, every repair starts with transparency and ends with satisfaction. We believe in honest diagnostics,fair pricing, and top-notch craftsmanshipl"} home={true} image={home}></Hero>
+        <Hero title={"Honesty. Quality. Care. That's What Drives Us."} description={"At our shop, every repair starts with transparency and ends with satisfaction. We believe in honest diagnostics,fair pricing, and top-notch craftsmanshipl"} home={true} image={homeimage}></Hero>
         <Facilities></Facilities>
         <Choice></Choice>
         <Services></Services>
